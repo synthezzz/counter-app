@@ -11,12 +11,12 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: ""
-  app: ""
-  env: ""
-  bucket_name: ""
-  bucket_path: ""
+  region: "us-east-2"
+  app: "counter-docker"
+  env: "CounterDocker-env"
+  bucket_name: "elasticbeanstalk-us-east-2-720927163681"
+  bucket_path: "counter-docker"
   on:
     branch: master
-  access_key_id: $
-  secret_access_key: $
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
