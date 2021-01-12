@@ -11,11 +11,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-2"
+  region: "us-east-2"
   app: "react-count"
   env: "ReactCount-env"
-  bucket_name: "elasticbeanstalk-us-west-2-720927163681"
-  bucket_path: "docker"
+  bucket_name: "elasticbeanstalk-us-east-2-720927163681"
+  bucket_path: "react-count"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
