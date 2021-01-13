@@ -10,7 +10,7 @@ before_install:
 #  - docker run -e CI=true synthezzz/counter-app npm run test
 
 deploy:
-  label: 0101
+  label: "0101"
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "counter_v1"
