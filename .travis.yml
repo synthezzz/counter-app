@@ -12,8 +12,8 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "react-count"
-  env: "ReactCount-env"
+  app: "counter_v1"
+  env: "CounterV1-env"
   bucket_name: "elasticbeanstalk-us-east-2-720927163681"
   bucket_path: "react-count"
   on:
