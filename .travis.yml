@@ -12,10 +12,10 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "counter_v1"
-  env: "CounterV1-env"
+  app: "couter3"
+  env: "Couter3-env"
   bucket_name: "elasticbeanstalk-us-east-2-720927163681"
-  bucket_path: "react-count"
+  bucket_path: "couter3"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
